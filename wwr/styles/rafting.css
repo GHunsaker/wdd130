@@ -14,7 +14,7 @@
     --nav-hover-link-color:#090C9B;
     --nav-hover-background-color: #307F09;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
 }
