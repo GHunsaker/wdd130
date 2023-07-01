@@ -4,14 +4,14 @@
     --primary-color: #307F09;
     --secondary-color: #7A551F;
     --accent1-color: #FFCC01;
-    --accent2-color: #090C9B;
+    --accent2-color: #ffffff;
 
     --heading-font: 'Geologica' sans-serif;
     --paragraph-font: 'Noto Serif', serif;
 
     --nav-background-color: #7A551F;
     --nav-link-color: #FFCC01;
-    --nav-hover-link-color:#090C9B;
+    --nav-hover-link-color:#ffffff;
     --nav-hover-background-color: #307F09;
 }
 h1, h2 {
@@ -112,7 +112,7 @@ body {
   
   .flex a {
     display: block;
-    color: navy;
+    color: #ffffff;
     padding: 20px;
     text-decoration: none;
   }
