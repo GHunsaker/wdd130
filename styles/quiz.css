@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@900&family=Noto+Serif:wght@300&display=swap');
+
+:root {
+  --primary-color: #307F09;
+  --secondary-color: #7A551F;
+  --accent1-color: #FFCC01;
+  --accent2-color: #ffffff;
+
+  --heading-font: 'Geologica', sans-serif;
+  --paragraph-font: 'Noto Serif', serif;
+
+  --nav-background-color: #7A551F;
+  --nav-link-color: #FFCC01;
+  --nav-hover-link-color: #ffffff;
+  --nav-hover-background-color: #307F09;
+
+  --quiz-background-color: #7A551F;
+  --quiz-text-color: #ffffff;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  margin: 0 auto;
+  background-color: var(--quiz-background-color); 
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-family: var(--paragraph-font);
+  color: var(--accent1-color);
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--secondary-color);
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+}
+
